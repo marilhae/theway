@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration:none ;
+   outline: none;
+   font-family: "Julius Sans One", sans-serif;
+}
+body{
+   background-color:#DEB6C9 ;
+}
+section, footer{
+   padding: 54px 0;
+}
+h1{
+   font-size: 50px;
+}
+p{
+   color: #423a3a;
+}
+.container{
+ max-width: 1500px;
+ margin: 0 auto;
+padding: 0 4%;
+
+}
+
+.btn{
+   background-color: #805656;
+   color: white;
+   padding: 15px 20px;
+   border-radius: 5px;
+   display: inline-block;
+}
+header{
+   background-size: cover;
+   background-position: left;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+  
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 30px;
+}
+nav ul{
+   display: flex;
+   align-items: center;
+}
+#title{
+   color: rgb(0, 0, 0);
+   font-size: 35px;
+   font-weight: 700;
+}
+nav ul a{
+   color: rgb(8, 0, 0);
+   margin: 0 15px;
+   text-transform: uppercase;
+   font-size: 18px;
+   font-weight: 900;
+   display: block;
+}
+.banner{
+   display:flex;
+   justify-content: right;
+   padding: 100px;
+}
+.banner .banner-text{
+   margin: 120px;
+   text-align: center;
+   padding: 0 90px;
+}
+.banner .banner-text h1{
+   font-size: 96px;
+   color: rgb(0, 0, 0);
+   font-weight: 700;
+}
+.banner .banner-text p{
+   font-size: 22px;
+   font-weight: bold;
+   color: #423a3a;
+   margin: 18px 0;
+}
+/* --------------------------------------------Apresentação--------------------------- */
+.apresenta{
+   background-color: white;
+}
+.apresenta .container{
+   display: flex;
+   align-items: center;
+
+}
+.apresenta .apresenta-imagem{
+   width: 50%;
+   margin: 0;
+}
+.apresenta .apresenta-text{
+   width: 50%;
+   padding: 40px 0;
+   display: block;
+
+}
+.apresenta .apresenta-text h1{
+   font-size: 76px;
+   align-items: center;
+   display: flex;
+   font-weight: 800;
+}
+.apresenta .apresenta-text p{
+   margin: 15px 0 10px 0;
+   font-size: 23px;
+   font-weight: 600;
+   padding: 10px;
+}
+/* ---------------------------------------------------inspirações------------------------------------ */
+.inspo{
+   background-color: #CEA1B6;
+   
+   
+}
+.inspo .title{
+ align-items: center;
+ display: flexbox;
+ margin: 10px;
+ text-align: center;
+ padding:  50px;
+}
+.inspo .title h1{
+   align-items: center;
+   font-size: 55px;
+   font-style: "italiana";
+}
+.inspo .title h2{
+   font-size: 20px;
+
+}
+.cards{
+   display: flex;
+   justify-content: center;
+    /* align-items: center; */
+ 
+  
+}
+ .card{
+ padding: 20px;
+ margin: 50px ;
+ text-align: center;
+  
+}
+.card h5{
+   font-size: 20px;
+}
+/* --------------------------------------ods 5------------------------------- */
+.ods{
+   background-color:#C43D62 ;
+}
+.ods .container{
+   display: flex;
+   align-items: center;
+   margin: 0px;
+
+}
+.ods .ods-text{
+   width: 50%;
+   padding: 20px ;
+   margin: 0;
+}
+.ods .ods-text h1{
+   color: white;
+   font-size: 55px;
+   font-weight: bolder;
+   
+}
+.ods .ods-text p{
+   color: white;
+   font-size: 30px;
+}
+
+/* --------------------------------formulario----------------------- */
+.form{
+ background-color: white;
+}
+.form .container {
+   align-items: center;
+ display: flexbox;
+
+ text-align: center;
+ padding:  50px;
+   /* padding: 0px;
+   border-radius: 8px;
+   margin: 50px;
+   align-items: center; */
+ 
+}
+
+.form h2 {
+   color: black;
+   margin-bottom: 20px;
+   font-size: 34px;
+   text-align: center;
+   align-items: center;
+}
+
+label {
+   display: flex;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+input {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color:#C43D62;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+button:hover {
+   background-color: #6d182f;
+}
+
+#message {
+   margin-top: 20px;
+   text-align: center;
+   font-size: 20px;
+}
